@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Pelicula</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src='Recursos/JS/Scripts.js'></script>
+</head>
+<body>
+    <section class="container">
+    <div class="item header">
+    <h1>Pelicula</h1>
+    </div>
+    <div class="item content"> 
+    <form>
+        <ul class="formulario">
+            <li class="formulario-fila">
+                <label for="Titulo">Titulo:</label>
+                <input type="text" id="Titulo" value=""/>        
+            </li>
+            <li class="formulario-fila"> 
+                <label for="Descripcion">Descripcion:</label>
+                <input type="text" id="Descripcion" value=""/>                                    
+            </li>
+            <li class="formulario-fila">
+                <label for="Genero">Genero:</label>
+                <input type="text" id="Genero" value=""/>                                    
+            </li>
+            <li class="formulario-fila">
+                <button type="button" id="btn" onclick="guardar()">Guardar</button>                            
+            </li>
+        </ul>
+         <table id="tabla">
+          <tr>
+           <td>
+            Titulo
+           </td>
+           <td>
+            Descripcion
+           </td>
+           <td>
+            Genero
+           </td>
+          </tr>
+         </table>
+    </form>
+    <div class="forulario" id="texto"></div>
+</div> 
+<footer>
+    <div class="item footer">
+   <b>
+       Copyright &copy; Ronny Agua Leon.
+   </b> 
+   </div>
+   </section>
+   </body>
+   </footer>
+</html>
